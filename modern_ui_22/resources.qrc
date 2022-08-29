@@ -288,4 +288,7 @@
     <file>feather/zoom-in.svg</file>
     <file>feather/zoom-out.svg</file>
   </qresource>
+  <qresource prefix="images">
+    <file>22-logo.png</file>
+  </qresource>
 </RCC>
