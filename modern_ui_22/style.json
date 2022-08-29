@@ -1,0 +1,26 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"22-MODERN UI",
+			"icon":":/images/22-logo.png",
+			"frameless": true,
+			"transluscentBg": true,
+			"sizeGrip": "size_grip",
+			"navigation":[
+				{
+					"minimize":"minimizeBtn",
+					"close": "closeBtn",
+					"restore":[
+						{
+							"buttonName": "restoreBtn",
+							"normalIcon": ":/icons/feather/square.svg",
+							"maximizedIcon": ":/icons/feather/copy.svg"
+						}
+					],
+					"moveWindow": "header_frame",
+					"tittleBar": "header_frame"
+				}
+			]
+		}
+	]
+}

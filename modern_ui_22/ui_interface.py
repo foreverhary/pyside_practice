@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interface.ui'
+## Form generated from reading UI file 'interfacejIgfMt.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -354,32 +354,32 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3.setSpacing(0)
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
         self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
-        self.pushButton_2 = QPushButton(self.frame_7)
-        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.minimizeBtn = QPushButton(self.frame_7)
+        self.minimizeBtn.setObjectName(u"minimizeBtn")
         icon10 = QIcon()
         icon10.addFile(u":/icons/feather/minus.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_2.setIcon(icon10)
-        self.pushButton_2.setIconSize(QSize(16, 16))
+        self.minimizeBtn.setIcon(icon10)
+        self.minimizeBtn.setIconSize(QSize(16, 16))
 
-        self.horizontalLayout_3.addWidget(self.pushButton_2)
+        self.horizontalLayout_3.addWidget(self.minimizeBtn)
 
-        self.pushButton_3 = QPushButton(self.frame_7)
-        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.restoreBtn = QPushButton(self.frame_7)
+        self.restoreBtn.setObjectName(u"restoreBtn")
         icon11 = QIcon()
         icon11.addFile(u":/icons/feather/square.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_3.setIcon(icon11)
-        self.pushButton_3.setIconSize(QSize(16, 16))
+        self.restoreBtn.setIcon(icon11)
+        self.restoreBtn.setIconSize(QSize(16, 16))
 
-        self.horizontalLayout_3.addWidget(self.pushButton_3)
+        self.horizontalLayout_3.addWidget(self.restoreBtn)
 
-        self.pushButton_4 = QPushButton(self.frame_7)
-        self.pushButton_4.setObjectName(u"pushButton_4")
+        self.closeBtn = QPushButton(self.frame_7)
+        self.closeBtn.setObjectName(u"closeBtn")
         icon12 = QIcon()
         icon12.addFile(u":/icons/feather/x.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_4.setIcon(icon12)
-        self.pushButton_4.setIconSize(QSize(16, 16))
+        self.closeBtn.setIcon(icon12)
+        self.closeBtn.setIconSize(QSize(16, 16))
 
-        self.horizontalLayout_3.addWidget(self.pushButton_4)
+        self.horizontalLayout_3.addWidget(self.closeBtn)
 
 
         self.horizontalLayout_5.addWidget(self.frame_7, 0, Qt.AlignRight)
@@ -572,7 +572,9 @@ class Ui_MainWindow(object):
         self.footerContainter = QWidget(self.mainBodyContainer)
         self.footerContainter.setObjectName(u"footerContainter")
         self.horizontalLayout_11 = QHBoxLayout(self.footerContainter)
+        self.horizontalLayout_11.setSpacing(0)
         self.horizontalLayout_11.setObjectName(u"horizontalLayout_11")
+        self.horizontalLayout_11.setContentsMargins(0, 0, 0, 0)
         self.frame_10 = QFrame(self.footerContainter)
         self.frame_10.setObjectName(u"frame_10")
         self.frame_10.setFrameShape(QFrame.StyledPanel)
@@ -589,8 +591,8 @@ class Ui_MainWindow(object):
 
         self.sizeGrip = QFrame(self.footerContainter)
         self.sizeGrip.setObjectName(u"sizeGrip")
-        self.sizeGrip.setMinimumSize(QSize(10, 10))
-        self.sizeGrip.setMaximumSize(QSize(10, 10))
+        self.sizeGrip.setMinimumSize(QSize(40, 40))
+        self.sizeGrip.setMaximumSize(QSize(40, 40))
         self.sizeGrip.setFrameShape(QFrame.StyledPanel)
         self.sizeGrip.setFrameShadow(QFrame.Raised)
 
@@ -664,17 +666,17 @@ class Ui_MainWindow(object):
 #endif // QT_CONFIG(tooltip)
         self.pushButton_5.setText("")
 #if QT_CONFIG(tooltip)
-        self.pushButton_2.setToolTip(QCoreApplication.translate("MainWindow", u"Minimize Window", None))
+        self.minimizeBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Minimize Window", None))
 #endif // QT_CONFIG(tooltip)
-        self.pushButton_2.setText("")
+        self.minimizeBtn.setText("")
 #if QT_CONFIG(tooltip)
-        self.pushButton_3.setToolTip(QCoreApplication.translate("MainWindow", u"Restore Window", None))
+        self.restoreBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Restore Window", None))
 #endif // QT_CONFIG(tooltip)
-        self.pushButton_3.setText("")
+        self.restoreBtn.setText("")
 #if QT_CONFIG(tooltip)
-        self.pushButton_4.setToolTip(QCoreApplication.translate("MainWindow", u"Close Window", None))
+        self.closeBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Close Window", None))
 #endif // QT_CONFIG(tooltip)
-        self.pushButton_4.setText("")
+        self.closeBtn.setText("")
         self.label_10.setText(QCoreApplication.translate("MainWindow", u"Home", None))
         self.label_11.setText(QCoreApplication.translate("MainWindow", u"Data Analysis", None))
         self.label_12.setText(QCoreApplication.translate("MainWindow", u"Reports", None))
